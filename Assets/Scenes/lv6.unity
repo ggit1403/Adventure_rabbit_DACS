@@ -69674,11 +69674,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4137135925764299088, guid: ab9aee7f4b770d445aeafd84afe0c8e7, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -100.000015
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4137135925764299088, guid: ab9aee7f4b770d445aeafd84afe0c8e7, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4137135925764299088, guid: ab9aee7f4b770d445aeafd84afe0c8e7, type: 3}
       propertyPath: m_AnchoredPosition.x

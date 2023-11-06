@@ -5598,11 +5598,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4137135925764299088, guid: ab9aee7f4b770d445aeafd84afe0c8e7, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -110
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4137135925764299088, guid: ab9aee7f4b770d445aeafd84afe0c8e7, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -110
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4137135925764299088, guid: ab9aee7f4b770d445aeafd84afe0c8e7, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -5630,6 +5630,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6659190909722911893, guid: ab9aee7f4b770d445aeafd84afe0c8e7, type: 3}
       propertyPath: m_ChunkCullingBounds.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8646582031816953581, guid: ab9aee7f4b770d445aeafd84afe0c8e7, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
