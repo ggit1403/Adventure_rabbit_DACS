@@ -11,20 +11,21 @@ public class LevelMenu : MonoBehaviour
     private void Awake()
     {
         ButtonstoArray();
-        int unlockedLevel1 = PlayerPrefs.GetInt("UnlockedLevel1" ,1);
+        int unlockedLevel1 = PlayerPrefs.GetInt("UnlockedLevel1", 1);
         for (int i = 0; i < buttons.Length; i++)
         {
             buttons[i].interactable = false;
         }
-        for (int i = 0;  i < unlockedLevel1 ; i++){
-            buttons[i].interactable = true ;
+        for (int i = 0; i < unlockedLevel1; i++)
+        {
+            buttons[i].interactable = true;
         }
     }
 
 
     public void OpenLevel(int levelId)
     {
-        string leveName = "lv" + levelId; 
+        string leveName = "lv" + levelId;
         SceneManager.LoadScene(leveName);
     }
 
@@ -32,7 +33,7 @@ public class LevelMenu : MonoBehaviour
     {
         int childCount = levelButtons.transform.childCount;
         buttons = new Button[childCount];
-        for(int i = 0; i < childCount; i++)
+        for (int i = 0; i < childCount; i++)
         {
             buttons[i] = levelButtons.transform.GetChild(i).gameObject.GetComponent<Button>();
         }
